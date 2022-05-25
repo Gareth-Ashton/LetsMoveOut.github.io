@@ -1,0 +1,35 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* This helps place things under one another */
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 4rem;
+  font-weight: 300;
+  padding: 2rem;
+}
+
+.countdown {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.day, .hour, .minute, .second {
+  font-size: 2rem;
+}
+
+.home {
+  padding-top: 20px;
+  height: 50vh;
+}
