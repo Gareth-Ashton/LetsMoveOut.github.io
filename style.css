@@ -4,13 +4,16 @@
 }
 
 body {
+  
   background-image: url(./img/Test.jpg);
   /* Full height */
   height: 100%;
+  
 
   /* Center and scale the image nicely */
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
 }
 
@@ -23,6 +26,7 @@ body {
 }
 
 h2 {
+  text-align: center;
   font-family: 'Playfair Display', serif;
   font-size: 4rem;
   font-weight: 300;
