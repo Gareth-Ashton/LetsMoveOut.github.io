@@ -3,6 +3,17 @@
   padding: 0px;
 }
 
+body {
+  background-image: url(./img/Test.jpg);
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .main-section {
   min-height: 100vh;
   display: flex;
@@ -23,13 +34,14 @@ h2 {
   display: flex;
   justify-content: space-around;
   text-align: center;
+  padding-bottom: 300px;
 }
 
 .day, .hour, .minute, .second {
   font-size: 2rem;
 }
 
-.home {
+/* .home {
   padding-top: 20px;
   height: 50vh;
-}
+} */
